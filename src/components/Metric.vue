@@ -3,7 +3,7 @@ defineProps<{ header: string, category: string }>()
 </script>
 
 <template>
-    <div class="flex flex-col items-center gap-1">
+    <div class="flex flex-col items-center gap-1 desktop:items-start">
         <p class="text-2xl text-white font-bold">{{ header }}</p>
         <p class="text-xs text-white/50 tracking-widest">{{ category }}</p>
     </div>    
