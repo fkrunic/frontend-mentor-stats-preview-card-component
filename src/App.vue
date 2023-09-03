@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      bodyClass: ''
+      bodyClass: 'font-lexend-deca'
     };
   },
   mounted() {
